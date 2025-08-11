@@ -126,7 +126,11 @@ Example validation error response:
 
 ```json
 {
-  "technology": "Technology must not be blank"
+    "timestamp": "2025-08-11T15:29:16.20362",
+    "status": 400,
+    "errors": [
+        "technology: Technology must not be blank"
+    ]
 }
 ```
 
