@@ -31,8 +31,8 @@ Steps
 bash
 CopyEdit
 # Clone the repository
-git clone https://github.com/your-username/it-scenario-generator.git
-cd it-scenario-generator
+git clone https://github.com/your-username/random-it-scenario-generator.git
+cd random-it-scenario-generator
 
 # Build the project
 mvn clean install
