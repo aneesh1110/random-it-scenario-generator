@@ -41,7 +41,8 @@ A Spring Boot REST API that generates realistic, random IT scenarios based on us
 ### Steps
 
 # Clone the repository
-git clone https://github.com/your-username/random-it-scenario-generator.git
+git clone https://github.com/aneesh1110/random-it-scenario-generator.git
+
 cd random-it-scenario-generator
 
 # Build the project
