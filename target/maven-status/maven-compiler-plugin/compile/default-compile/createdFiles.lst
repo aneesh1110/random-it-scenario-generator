@@ -1,0 +1,10 @@
+com/example/App.class
+com/example/randomItScenarioGenerator/controller/GlobalExceptionHandler$ValidationErrorResponse.class
+com/example/randomItScenarioGenerator/service/ScenarioServiceImpl.class
+com/example/randomItScenarioGenerator/model/ScenarioRequest.class
+com/example/randomItScenarioGenerator/RandomItScenarioGeneratorApplication.class
+com/example/randomItScenarioGenerator/model/ScenarioResponse.class
+com/example/randomItScenarioGenerator/controller/ScenarioController.class
+com/example/randomItScenarioGenerator/service/ScenarioService.class
+com/example/randomItScenarioGenerator/controller/GlobalExceptionHandler$ErrorResponse.class
+com/example/randomItScenarioGenerator/controller/GlobalExceptionHandler.class
