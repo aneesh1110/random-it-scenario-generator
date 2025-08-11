@@ -29,7 +29,6 @@ Prerequisites
 •	Git
 Steps
 bash
-CopyEdit
 # Clone the repository
 git clone https://github.com/your-username/random-it-scenario-generator.git
 cd random-it-scenario-generator
@@ -41,23 +40,22 @@ mvn clean install
 mvn spring-boot:run
 The API will be available at:
 arduino
-CopyEdit
 http://localhost:8080
  
 API Usage
 Endpoint
 POST /api/scenario/generate
+
 Request Body
 json
-CopyEdit
 {
   "technology": "Cloud Computing",
   "role": "System Administrator",
   "environment": "Cloud Infrastructure"
 }
+
 Example cURL Command
 bash
-CopyEdit
 curl -X POST http://localhost:8080/api/scenario/generate \
 -H "Content-Type: application/json" \
 -d '{
@@ -65,9 +63,9 @@ curl -X POST http://localhost:8080/api/scenario/generate \
   "role": "System Administrator",
   "environment": "Cloud Infrastructure"
 }'
+
 Example Response
 json
-CopyEdit
 {
   "technology": "Cloud Computing",
   "role": "System Administrator",
@@ -79,7 +77,6 @@ CopyEdit
  
 Application Flow
 pgsql
-CopyEdit
 +--------------+       +----------------+       +----------------+       +------------------+
 |   Client     |  -->  |   Controller   |  -->  |     Service    |  -->  |  Dataset & Logic |
 | (Postman,    |       | (API Endpoint) |       |  (Business     |       | (Random Scenario |
@@ -101,13 +98,11 @@ Flow Explanation:
 Testing
 Run all unit tests:
 bash
-CopyEdit
 mvn test
  
 Error Handling
 Example validation error response:
 json
-CopyEdit
 {
   "technology": "Technology must not be blank"
 }
