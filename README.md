@@ -73,8 +73,8 @@ The API will be available at:
 ## Example cURL Command
 
 ```bash
-curl -X POST http://localhost:8080/api/scenario/generate \
-  -H "Content-Type: application/json" \
+curl -X POST http://localhost:8080/api/scenario/generate
+  -H "Content-Type: application/json"
   -d '{ "technology": "Cloud Computing", "role": "System Administrator", "environment": "Cloud Infrastructure" }'
 ```
 
